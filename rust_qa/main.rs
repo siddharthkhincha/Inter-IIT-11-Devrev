@@ -37,6 +37,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let answers = qa_model.predict(&qa_inputs, 1, 1);
     let duration = start.elapsed();
     println!("Time taken: {:?}", duration);
-    println!("{}", answers.len());
+    println!("Total number of questions processed : {}", answers.len());
     Ok(())
 }
