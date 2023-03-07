@@ -12,7 +12,8 @@
     <li><a href = "#problem-statement">Problem Statement</a></li>
     <li><a href = "#dataset">Dataset</a></li>
     <li><a href = "#our-approach">Our Approach</a></li>
-    <li><a href = "#conclusion">Conclusion</a></li>
+    <li><a href = "#key-points">Key Points</a></li>
+    <li><a href = "#contributors">Contributors</a></li>
   </ol>
   </summary>
 </details>
@@ -89,15 +90,27 @@ parts:
 3. Question Answering
     * Question-Answering model inference on the retrieved context.
 
-### Key Points
+## Key Points
 
-* Sentence Based Retrieval 
-* <a href = "https://github.com/SpyzzVVarun/question_generation">Question Generation using Transformers</a>
-  <img src = "">
-* Unsupervised Training of Retrievers Using GenQ
-  1. Generate queries for pre-existing but unlabeled passages: Creating (query, passage) pairs.
-  2. Fine-tune a bi-encoder model using these (query, passage) pairs and Multiple Negatives Ranking (MNR) loss.  
+<ul>
+<li><h3>Sentence Based Retrieval</h3></li> 
+<li><h3><a href = "https://github.com/SpyzzVVarun/question_generation">Question Generation using Transformers</a></h3></li><br><br>
+<div markdown = "1">
+- [ ] Insert Wide Image of QGen Pipeline
+</div>
+  <br><br>
+<li><h3>Unsupervised Training of Retrievers Using GenQ</h3></li>
+  <ol>
+  <li>Generate queries for pre-existing but unlabeled passages: Creating (query, passage) pairs.</li>
+  <li>Fine-tune a bi-encoder model using these (query, passage) pairs and Multiple Negatives Ranking (MNR) loss.</li>
+  </ol>
+  <br><br>
+  <img src = "https://d33wubrfki0l68.cloudfront.net/072f1e19b9b0e0271da6946d46095b5891db6c2f/adf5a/images/genq-1.jpg" height = "250">
+  <br><br>
+  
+  - [ ] Add Other Key Points
 
+## Contributors
 
+- [@SpyzzVVarun](https://github.com/SpyzzVVarun)
 
-## Conclusion
