@@ -108,6 +108,11 @@ parts:
   <img src = "https://d33wubrfki0l68.cloudfront.net/072f1e19b9b0e0271da6946d46095b5891db6c2f/adf5a/images/genq-1.jpg" height = "250">
   <br><br>
   
+  <li><h3>Paraphrasing Questions Using T5-Transformer</h3></li> 
+  <ol>
+    <li>Generated paraphrases of the questions given in the data using T5 Paraphraser.</li>
+    <li>Used Fuzzy Match Ratio to find out the similarity between incoming question and the paraphrased questions.</li>
+    <li>Used <a href = "https://github.com/Ki6an/fastT5">fastT5</a> library to reduce the runtime.<br><br>
   - [ ] Add Other Key Points
 
 ## Contributors
