@@ -118,4 +118,5 @@ parts:
 ## Contributors
 
 - [@SpyzzVVarun](https://github.com/SpyzzVVarun)
+- [@amish1706](https://github.com/amish1706)
 
