@@ -86,9 +86,9 @@ parts:
 1. Previously Answered Questions
     * Fuzzy match with paraphrased questions
 2. Sentence Retrieval
-    * Retrieval of Top K (dynamically chosen) sentences to form the context for the question answering model.
+    * Retrieval of Top K (dynamically chosen) sentences to form the context for the question-answering model.
 3. Question Answering
-    * Question-Answering model inference on the retrieved context.
+    * Question-answering model inference on the retrieved context.
 
 ## Key Points
 
@@ -119,4 +119,5 @@ parts:
 
 - [@SpyzzVVarun](https://github.com/SpyzzVVarun)
 - [@amish1706](https://github.com/amish1706)
+- [@Nidhi15-02](https://github.com/Nidhi15-02)
 
